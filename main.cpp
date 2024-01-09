@@ -19,5 +19,12 @@ int main()
     Character *Oga = new Ogasawara();
     pushA(Oga);
     pushB(Oga);
+    delete Oga;
+
+    //上にならってここに自分の作ったキャラクタのインスタンス生成
+    //Aボタンアクション
+    //Bボタンアクション
+    //デリート演算子を書いてください
+
     return 0;
 }
